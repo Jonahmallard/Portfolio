@@ -320,6 +320,7 @@ header {
 
 .about-me__img {
     box-shadow: var(--box-shadow);
+    height: 180px;
 }
 
 @media (min-width: 600px) {
