@@ -361,7 +361,7 @@ header {
 }
 
 .portfolio__item {
-    background: var(--clr-dark);
+    background: black;
     overflow: hidden;
 }
 
