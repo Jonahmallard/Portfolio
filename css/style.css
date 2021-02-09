@@ -299,20 +299,6 @@ header {
     margin: 0 auto;
 }
 
-/* 
-@media (min-width: 800px) {
-    .services {
-        display: flex;
-        max-width: 1000px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .service + .service {
-        margin-left: 2em;
-    }
-} */
-
 .about-me {
     max-width: 1000px;
     margin: 0 auto;
@@ -375,7 +361,7 @@ header {
 }
 
 .portfolio__item {
-    background: var(--clr-accent);
+    background: var(--clr-dark);
     overflow: hidden;
 }
 
