@@ -362,11 +362,18 @@ header {
 }
 
 .portfolio__item {
-    background: black;
+    background: white;
     overflow: hidden;
+    border: var(--clr-dark) solid 3px;
+}
+
+.portfolio__item--title {
+    margin: 5px;
+    color: var(--clr-dark);
 }
 
 .portfolio__img {
+    height: 240px;
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
