@@ -364,7 +364,7 @@ header {
 .portfolio__item {
     background: white;
     overflow: hidden;
-    border: var(--clr-dark) solid 3px;
+    border: var(--clr-accent) solid 3px;
 }
 
 .portfolio__item--title {
@@ -374,6 +374,7 @@ header {
 
 .portfolio__img {
     height: 240px;
+    padding: 5px;
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
