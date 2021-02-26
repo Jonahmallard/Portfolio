@@ -345,6 +345,10 @@ header {
         position: relative;
         z-index: 2;
     }
+
+    .social-list__link {
+        padding: 1em;
+    }
 }
 
 /* my work */
@@ -427,12 +431,8 @@ header {
     padding: 0;
 }
 
-.social-list__item {
-    margin: 0 .5em;
-}
-
 .social-list__link {
-    padding: .5em;
+    padding: .3em;
 }
 
 .portfolio-item-individual {
